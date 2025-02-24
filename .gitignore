@@ -1,0 +1,22 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.env
+
+# IDE
+.vscode/
+.idea/
+
+# Virtual Environment
+.venv/
+venv/
+ENV/
+
+# Chainlit specific
+.chainlit/
+.files/
+local_cache/
+
+# 其他
+*.log 

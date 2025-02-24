@@ -1,0 +1,3 @@
+chainlit
+langflow
+python-dotenv 
