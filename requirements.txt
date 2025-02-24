@@ -1,3 +1,6 @@
-chainlit
-langflow
-python-dotenv 
+chainlit>=0.7.700
+langflow>=0.0.1
+python-dotenv>=0.19.0
+clickhouse-connect>=0.7.19
+typing-extensions>=4.5.0
+python-multipart>=0.0.6 

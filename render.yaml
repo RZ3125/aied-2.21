@@ -1,0 +1,14 @@
+services:
+  - type: web
+    name: chainlit-aied
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: chainlit run app.py --host 0.0.0.0 --port $PORT
+    envVars:
+      - key: GROQ_API_KEY
+        value: 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
+    autoDeploy: true
+    healthCheckPath: /health
+    regions:
+      - oregon 
